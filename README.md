@@ -11,3 +11,4 @@ tugas sistem keamanan data
 10. rsa pdf
 11. rsa img
     
+kurang laprak rsa, des manual, hill manual
