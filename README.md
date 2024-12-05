@@ -10,5 +10,7 @@ tugas sistem keamanan data
 9. aes
 10. rsa pdf
 11. rsa img
+12. blockchain
+    
     
 kurang laprak rsa, des manual, hill manual
