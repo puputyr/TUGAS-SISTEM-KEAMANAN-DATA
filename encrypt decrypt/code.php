@@ -26,7 +26,7 @@
         </form>
 
         <?php
-        // Fungsi untuk mengenkripsi teks
+    
         function enkripsi($teks, $tabelSubstitusi) {
             $teksTerenkripsi = strtr($teks, $tabelSubstitusi);
             return $teksTerenkripsi;

@@ -15,7 +15,7 @@ for idx in range(num):
     out.add_page(page)  # Perubahan pada baris ini
 
 # masukkan password enkripsi 
-password = "bukannabiboy"
+password = "bukannabiboy" 
 
 # enkripsi masing-masing halaman 
 out.encrypt(password)

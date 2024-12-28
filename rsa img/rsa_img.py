@@ -5,8 +5,7 @@ demo = cv2.imread("D:/Downloads/rose.png", 0)
 r, c = demo.shape
 key = np.random.randint(0, 256, size=(r, c), dtype=np.uint8)
 cv2.imwrite("D:/Downloads/KEY-rose.png", key)
-
-cv2.imshow("demo", demo)
+cv2.imshow("demo", demo) 
 cv2.imshow("key", key)
 
 encryption = cv2.bitwise_xor(demo, key)
