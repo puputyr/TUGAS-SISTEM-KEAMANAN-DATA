@@ -1,11 +1,1 @@
-# Abaikan semua file dengan nama "skd flow.drawio"
-skd flow.drawio
-
-# Abaikan file "LAPORAN UJIAN AKHIR SEMESTER.docx"
-LAPORAN UJIAN AKHIR SEMESTER.docx
-
-# Abaikan file "Berikut saya lampirkan tugas system keamanan data.pdf"
-Berikut saya lampirkan tugas system keamanan data.pdf
-
-# Abaikan semua file dengan nama "iot flow.drawio"
-iot flow.drawio
+/gitignore
