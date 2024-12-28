@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="dUojVJcg9I0yXATBw-jy">
+    <mxGraphModel dx="1078" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="468RHzVQhFKLnzU3z11W-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="468RHzVQhFKLnzU3z11W-1" target="468RHzVQhFKLnzU3z11W-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="468RHzVQhFKLnzU3z11W-1" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="468RHzVQhFKLnzU3z11W-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="468RHzVQhFKLnzU3z11W-2" target="468RHzVQhFKLnzU3z11W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="468RHzVQhFKLnzU3z11W-2" value="Ambil Password yang akan di-hash" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="468RHzVQhFKLnzU3z11W-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="468RHzVQhFKLnzU3z11W-4" target="468RHzVQhFKLnzU3z11W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="468RHzVQhFKLnzU3z11W-4" value="Generate Garam (Salt)&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="468RHzVQhFKLnzU3z11W-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="468RHzVQhFKLnzU3z11W-6" target="468RHzVQhFKLnzU3z11W-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="468RHzVQhFKLnzU3z11W-6" value="Lakukan Hashing dengan Blowfish (iterasi)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="468RHzVQhFKLnzU3z11W-8" value="Hasilkan Hash (termasuk Salt dan Iterasi)&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="468RHzVQhFKLnzU3z11W-10" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="970" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="468RHzVQhFKLnzU3z11W-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="468RHzVQhFKLnzU3z11W-8" target="468RHzVQhFKLnzU3z11W-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
